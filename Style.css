@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+	background:white;
+}
+
+.main_wrapper
+{
+	width: 1000px;
+	margin : auto;
+	height : auto;
+}
+
+.header_wrapper
+{
+	width : 1000px;
+	height: 160px;
+	margin : auto;
+}
+
+#logo
+{
+	float :left;
+}
+
+#banner
+{
+	float:right;
+}
+
+.menubar
+{
+	width:1000px;
+	height:50px;
+	background:gray;
+	color:white;
+}
+
+#menu
+{
+	padding :0;
+	margin:0;
+	line-height:50px;
+}
+
+#menu li
+{
+	list-style:none;
+	display:inline;
+}
+
+#menu a
+{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	margin:2px;
+    font-size:20px;
+	font-family:Arial;
+}
+
+#menu a:hover
+{
+	color:green;
+	text-decoration:underline;
+	
+}
+.content_wrapper
+{
+	width:1000px;
+	height:800px;
+	margin : auto;
+	background :white;
+}
+
+       
+#content_area
+{
+	width:800px;
+	height:800px;
+	float:right;
+	background:white;
+	overflow: scroll;  
+	
+}
+table, th, td {  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+}  
+th, td {  
+    padding: 10px;  
+}  
+
+table th {  
+    color: white;  
+    background-color: gray;  
+}  
+
+
+#sidebar
+{
+	width:200px;
+	height:800px;
+	float:left;
+	background:#F5F5DC;
+}
+
+#sidebar_title
+{
+	background:#F5F5DC;
+	color:black;
+	font-size:20px;
+	font-family:arial;
+	padding:10px;
+	text-align:center;
+	text-decoration:underline;
+}
+
+#cats
+{
+	text-align:center;
+}
+
+#cats li
+{
+	list-style:none;
+	display:block;
+		line-height:50x;
+
+}
+
+#cats a
+{
+	color:black;
+	padding :5px;
+	margin:5px;
+	text-align:center;
+	font-size:15px;
+	font-family:arial;
+	text-decoration:none;
+	line-height:50px;
+}
+
+#cats a:hover
+{
+	color:red;
+	text-decoration:underline;
+	
+}
+
+#footer
+{
+	width : 1000px;
+	height:100px;
+	background:gray;
+	clear:both;
+}
+
